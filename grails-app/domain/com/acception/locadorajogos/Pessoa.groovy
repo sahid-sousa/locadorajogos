@@ -4,7 +4,7 @@ class Pessoa {
 
     String nome
     Integer idade
-    //User user
+    User user
     static hasMany = [solicitacoes : Solicitacao]
 
     static constraints = {

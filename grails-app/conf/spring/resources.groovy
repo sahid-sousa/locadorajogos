@@ -1,3 +1,5 @@
+import com.acception.locadorajogos.UserPasswordEncoderListener
 // Place your Spring DSL code here
 beans = {
+    userPasswordEncoderListener(UserPasswordEncoderListener)
 }
